@@ -1,0 +1,66 @@
+<!doctype html>
+<html>
+<head>
+	<script>
+		function  abc()
+{alert("Magazine is Issued");
+}
+</script>
+	<link rel="stylesheet" type="text/css" href="ab.css">
+</head>
+<body>
+	<p><h1><marquee behavior="alternate" direction="up" width="80%">
+	<marquee direction="right" behavior="alternate" style="color:white">Welcome To  Politics Column</marquee>
+</marquee>
+<body background="politics1.png">
+	<table id="travelTable" >
+<tr>
+    <td><img src="p1.jpg"><br><p class="name">Politics001</td>
+    <td><img src="p2.jpg"><br><p class="name">Politics002</td>
+    <td><img src="p3.jpg"><br><p class="name">Politics003<td>
+</tr>
+	<tr>
+    <td><img src="p4.jpg"><br><p class="name">Politics004</td>
+    <td><img src="p5.jpg"><br><p class="name">Politics005</td>
+    <td><img src="p6.jpg"><br><p class="name">Politics006</td>
+</tr>
+	<tr>
+    <td><img src="p7.jpg"><br><p class="name">Politics007</td>
+    <td><img src="p8.jpg"><br><p class="name">Politics008</td>
+    <td><img src="p9.jpg"><br><p class="name">Politics009</td>
+</tr>
+<ul class="na">
+        <li>
+        <a href="#" onclick="document.getElementById('id01').style.display='block'">Issue</a>
+        </li>
+    </ul>
+    <div id="id01" class="modal">
+  <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal"><i class="ion-close-round"></i></span>
+  <form class="modal-content">
+    <div class="container">
+      <h1>Issue</h1>
+      <p>Please fill in this form to issue a magazine.</p>
+      <hr>
+      <label for="email"><b>Email</b></label>
+      <input type="text" placeholder="Enter Email" name="email" required>
+
+      <label for="name"><b>Name</b></label>
+      <input type="text" placeholder="Enter Name" name="name" required>
+
+      <label for="Magazine Number"><b>Magazine Number</b></label>
+      <input type="text" placeholder="Enter Magazine Number " name="magazine number" required>
+
+      
+
+      
+
+      <div>
+      
+        <button type="submit" class="signup" onclick="abc()"><h4>Issue</button>
+          
+      </div>
+    </div>
+  </form>
+</div>
+</body>
+</html>

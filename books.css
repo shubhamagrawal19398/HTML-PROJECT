@@ -1,0 +1,79 @@
+*{
+	margin:0 auto;
+	padding :0 auto;
+}
+
+body{
+	background-color : #78909C;
+	padding : 5px;
+}
+
+
+#bookLogo{
+	height:180px;
+	width:300px;
+
+}
+
+#logoTable{
+	background-color:rgb(26,25,39);
+	width:100%;
+}
+#bookId{
+	padding-right:0px;
+}
+#heading{
+	font-size: 78px;
+	color:#FFFFFF;
+	text-align : left;
+    margin-right:600px;
+}
+
+.book{
+	height:250px;
+	width:250px;
+}
+
+td{
+	padding:10px;
+}
+
+#bookTable{
+	width:100%;
+}
+.bookDescription{
+	font-size:18px;
+}
+
+.BookName{
+	font-size:23px ;
+	color:#000000;
+}
+
+.BookWriter{
+	font-size:19px;
+	color:#000000;
+}
+
+#footer{
+	background-color:#9E9E9E;
+	width:100%;
+	height:180px;
+	font-size:25px;
+	text-align:center;
+}
+
+#name{
+	
+	font-size: 20px;
+	color:#B71C1C;
+	text-align : left;
+    margin-right:0px;
+}
+
+#reg{
+    font-size: 20px;
+	color:#B71C1C;
+	text-align : left;
+    margin-right:0px;  	
+}

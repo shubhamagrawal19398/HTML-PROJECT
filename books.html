@@ -1,0 +1,199 @@
+<!doctype html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="books.css">
+<script src="books.js"></script>
+</head>
+<body onload="initializeCount(); call();" >
+<table id="logoTable" border="0">
+       <tr>
+            <td id="bookId">
+                  <img src="bookLogo2.png" id="bookLogo">
+            </td>
+            <td>      
+                   <p id="heading"><i>Books</i></p>
+            </td>  
+            <td valign="top">
+            
+              <b><p id="name"></p><b>
+              <b><p id="reg"></p><b>
+              </br>
+              <button onclick="issue()">Book Issue Details</button>
+              
+            </td>     
+            
+       </tr>
+</table>
+<br/><br/><br/>
+
+<table id="bookTable" border="0" >
+      <tr>
+            <td align="center">
+                <img src="a-biography-of-rahul-dravid-original.jpeg" class="book"><br/>
+                <p class="bookDescription">
+                <p class="BookName"><b>Biography Of Rahul Dravid<b> </p> <BR/>
+                <p class="BookWriter">(Devendra Prabhudesai)</p><BR/>
+                 <p id="book1"> Quantity = 50 &nbsp&nbsp&nbsp
+                <button onclick="decrement1()">Issue</button></p>
+
+            </td>
+            <td align="center">
+                <img src="a-brief-history-of-time.jpeg" class="book"><br/>
+                <p class="bookDescription">
+                <p class="BookName"><b>Brief History Of Time<b> </p> <BR/>
+                <p class="BookWriter"> (Stephen Hawking)</p><BR/>
+                <p id="book2"> Quantity = 50&nbsp&nbsp&nbsp
+                <button onclick="decrement2()">Issue</button></p>
+            </td>
+            <td align="center">
+                <img src="a-century-is-not-enough.jpeg" class="book"><br/>
+                <p class="bookDescription">
+                <p class="BookName"><b>A Century is not Enough<b> </p> <BR/>
+                <p class="BookWriter"> (Sourav Ganguly)</p><BR>
+                <p id="book3"> Quantity = 50 &nbsp&nbsp&nbsp
+                <button onclick="decrement3()">Issue</button></p>
+            </td>
+              <td align="center">
+                <img src="steve-jobs-by-walter-isaacson.jpeg" class="book"><br/>
+                <p class="bookDescription">
+                <p class="BookName"><b>Steve Jobs<b> </p> <BR/>
+                <p class="BookWriter">(Walter Isaacson)</p><BR/>
+               <p id="book4"> Quantity = 50 &nbsp&nbsp&nbsp
+                <button onclick="decrement4()">Issue</button></p>
+            </td>
+      </tr>
+
+      <tr>
+            <td align="center">
+                <img src="beginning-android-programming-with-android-studio.jpeg" class="book"><br/>
+                <p class="bookDescription">
+                <p class="BookName"><b>Beginning Android Programming<br/>with Android Studio, 4ed<b> </p> <BR/>
+                <p class="BookWriter"> (Jerome F. DiMarzio)</p><BR/>
+                <p id="book5"> Quantity = 50 &nbsp&nbsp&nbsp
+                <button onclick="decrement5()">Issue</button></p>
+            </td>
+            <td align="center">
+                <img src="data-structures-and-algorithmsmade-easy.jpeg" class="book"><br/>
+                <p class="bookDescription">
+                <p class="BookName"><b>Data Structures and Algorithms Made Easy<b> </p> <BR/>
+                <p class="BookWriter"> (Narasimha Karumanchi)</p><BR/>
+                <p id="book6"> Quantity = 50 &nbsp&nbsp&nbsp
+                <button onclick="decrement6()">Issue</button></p>
+            </td>
+            <td align="center">
+                <img src="develop-self-confidence-improve-public-speaking.jpeg" class="book"><br/>
+                <p class="bookDescription">
+                <p class="BookName"><b>DEVELOP SELF-CONFIDENCE, IMPROVE PUBLIC SPEAKING<b> </p> <BR/>
+                <p class="BookWriter"> (Dale Carnegie)</p><BR/>
+               <p id="book7"> Quantity = 50&nbsp&nbsp&nbsp
+                <button onclick="decrement7()">Issue</button></p>
+            </td>
+              <td align="center">
+                <img src="elon-musk-how-the-billionaire-ceo-of-spacex-and-tesla-is-shaping.jpeg" class="book"><br/>
+                <p class="bookDescription">
+                <p class="BookName"><b>Elon Musk<b> </p> <BR/>
+                <p class="BookWriter"> (Ashlee Vance)</p><BR/>
+               <p id="book8"> Quantity = 50 &nbsp&nbsp&nbsp
+                <button onclick="decrement8()">Issue</button></p>
+            </td>
+      </tr>
+
+      <tr>
+            <td align="center">
+                <img src="engineering-mechanics-original.jpeg" class="book"><br/>
+                <p class="bookDescription">
+                <p class="BookName"><b>Engineering Mechanics<b> </p> <BR/>
+                <p class="BookWriter"> (R.Sharma)</p><BR/>
+               <p id="book9"> Quantity = 50 &nbsp&nbsp&nbsp
+                <button onclick="decrement9()">Issue</button></p>
+            </td>
+            <td align="center">
+                <img src="how-to-win-friends-and-influence-people.jpeg" class="book"><br/>
+                <p class="bookDescription">
+                <p class="BookName"><b>How to Win Friends and Influence People<b> </p> <BR/>
+                <p class="BookWriter">(Dale Carnegie)</p><BR/>
+                <p id="book10"> Quantity = 50 &nbsp&nbsp&nbsp
+                <button onclick="decrement10()">Issue</button></p>
+            </td>
+            <td align="center">
+                <img src="kotlin-for-android-developers-learn-kotlin-the-easy-way-while.jpeg" class="book"><br/>
+                <p class="bookDescription">
+                <p class="BookName"><b>KOTLIN FOR ANDROID DEVELOPERS<b> </p> <BR/>
+                <p class="BookWriter"> (ANTONIO LEIVA)</p><BR/>
+                <p id="book11"> Quantity = 50 &nbsp&nbsp&nbsp
+                <button onclick="decrement11()">Issue</button></p>
+            </td>
+              <td align="center">
+                <img src="man's search for meaning.jpg" class="book"><br/>
+                <p class="bookDescription">
+                <p class="BookName"><b>Man's Search for Meaning<b> </p> <BR/>
+                <p class="BookWriter"> (Viktor Frank)</p><BR/>
+                <p id="book12"> Quantity = 50 &nbsp&nbsp&nbsp
+                <button onclick="decrement12()">Issue</button></p>
+            </td>
+      </tr>
+
+      <tr>
+            <td align="center">
+                <img src="playing-it-my-way-my-autobiography.jpeg" class="book"><br/>
+                <p class="bookDescription">
+                <p class="BookName"><b>Playing It My Way: My Autobiography <b> </p> <BR/>
+                <p class="BookWriter">(Sachin Tendulkar)</p><BR/>
+                <p id="book13"> Quantity = 50 &nbsp&nbsp&nbsp
+                <button onclick="decrement13()">Issue</button></p>
+            </td>
+            <td align="center">
+                <img src="shoe-dog-original.jpeg" class="book"><br/>
+                <p class="bookDescription">
+                <p class="BookName"><b>Shoe Dog : A Memoir By the Creator of Nike<b> </p> <BR/>
+                <p class="BookWriter">(Phil Knight)</p><BR/>
+                <p id="book14"> Quantity = 50 &nbsp&nbsp&nbsp
+                <button onclick="decrement14()">Issue</button></p>
+            </td>
+            <td align="center">
+                <img src="the-prophet-of-modern-india-a-biography-of-swami-vivekananda.jpeg" class="book"><br/>
+                <p class="bookDescription">
+                <p class="BookName"><b>Prophet of Modern India: <br/>A Biography of Swami Vivekananda<b> </p> <BR/>
+                <p class="BookWriter">(Gautam Ghosh)</p><BR/>
+                <p id="book15"> Quantity = 50 &nbsp&nbsp&nbsp
+                <button onclick="decrement15()">Issue</button></p>
+            </td>
+              <td align="center">
+                <img src="think-grow-rich.jpeg" class="book"><br/>
+                <p class="bookDescription">
+                <p class="BookName"><b>Think & Grow Rich<b> </p> <BR/>
+                <p class="BookWriter">(Napoleon Hill)</p><BR/>
+                <p id="book16"> Quantity = 50 &nbsp&nbsp&nbsp
+                <button onclick="decrement16()">Issue</button></p>
+            </td>
+      </tr>
+
+       <tr>
+            <td align="center">
+                <img src="wings-of-fire.jpeg" class="book"><br/>
+                <p class="bookDescription">
+                <p class="BookName"><b>Wings of Fire: An Autobiography<br/> 1st Edition<b> </p> <BR/>
+                <p class="BookWriter">(APJ Abdul Kalam)</p><BR/>
+                <p id="book17"> Quantity = 50 &nbsp&nbsp&nbsp
+                <button onclick="decrement17()">Issue</button></p>
+            </td>
+            <td align="center">
+                <img src="you-can-win.jpeg" class="book"><br/>
+                <p class="bookDescription">
+                <p class="BookName"><b>You Can Win<b> </p> <BR/>
+                <p class="BookWriter">(Shiv Khera)</p><BR/>
+                <p id="book18"> Quantity = 50 &nbsp&nbsp&nbsp
+                <button onclick="decrement18()">Issue</button></p>
+            </td>
+            
+      </tr>
+
+</table>
+<div id="footer">
+<footer >
+  <p>Designed by: vikash kumar</p>
+  <p>Contact information: <a href="mailto:vikashyadavarya07@gmail.com">vikashyadavarya07@gmail.com</a>.</p>
+</footer>
+</div>
+</body>
+</html>
